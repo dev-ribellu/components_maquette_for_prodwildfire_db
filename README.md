@@ -34,7 +34,7 @@ Cette maquette ne constitue pas un produit fini. Elle ne doit pas être considé
 - une garantie de disponibilité ou de conformité des contenus visuels.
 
 ## Crédits
-Maquette réalisée et présentée par **[Votre nom]**.
+Maquette réalisée et présentée par **Robin Corti**.
 
 ## Remarque
 Si vous souhaitez, ce projet peut ensuite évoluer vers une version plus complète avec :
