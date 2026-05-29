@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Superposition d’images</title>
+		<link rel="stylesheet" href="index.css" />
+		<script defer src="background.js"></script>
+	</head>
+	<body>
+		<main class="scene" id="scene">
+			<aside class="controls" aria-label="Sélection de la paire d'images">
+				<input id="pair-slider" class="pair-slider" type="range" min="0" max="3" step="1" value="0" />
+			</aside>
+			<section class="stack" aria-label="Superposition d'images interactive">
+				<div class="layer layer-back" aria-hidden="true"></div>
+				<div class="layer layer-trail" aria-hidden="true"></div>
+				<div class="layer layer-front" aria-hidden="true"></div>
+				<div class="overlay"></div>
+
+				<div class="content auth-card" aria-label="Connexion">
+					<p class="eyebrow">Accès membre</p>
+					<h1>Connexion</h1>
+					<p class="description">Accède à ton espace avec un compte sécurisé.</p>
+
+					<form class="login-form">
+						<label class="field">
+							<span>Email</span>
+							<input type="email" name="email" placeholder="nom@exemple.com" autocomplete="email" />
+						</label>
+
+						<label class="field">
+							<span>Mot de passe</span>
+							<input type="password" name="password" placeholder="••••••••" autocomplete="current-password" />
+						</label>
+
+						<div class="form-row">
+							<label class="remember">
+								<input type="checkbox" name="remember" />
+								<span>Rester connecté</span>
+							</label>
+							<a class="forgot" href="#">Mot de passe oublié ?</a>
+						</div>
+
+						<button type="submit" class="submit-btn">Se connecter</button>
+					</form>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
